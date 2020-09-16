@@ -10,7 +10,7 @@ import inputs
 from ctypes import c_int32  # little hack to create a "mutable integer"
 
 # create data array storing system's state and its history
-#a comment added byCG
+#a comment added byCG  yees yes
 dt = inputs.timestep
 total_steps = int((inputs.end_time - inputs.start_time) / dt) + 1
 dewars_list = range(inputs.N_dewars)
